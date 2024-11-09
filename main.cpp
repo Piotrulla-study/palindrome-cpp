@@ -16,15 +16,15 @@ bool isPalindrome(const std::string &word) {
 }
 
 int main() {
-    std::string slowo;
+    std::string word;
     std::cout << "Podaj slowo: ";
-    std::cin >> slowo;
+    std::cin >> word;
 
-    if (isPalindrome(slowo)) {
-        std::cout << slowo << " jest palindromem." << std::endl;
+    if (isPalindrome(word)) {
+        std::cout << word << " jest palindromem." << std::endl;
     }
     else {
-        std::cout << slowo << " nie jest palindromem." << std::endl;
+        std::cout << word << " nie jest palindromem." << std::endl;
     }
 
     return 0;
